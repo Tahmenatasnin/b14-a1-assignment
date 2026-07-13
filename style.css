@@ -80,3 +80,149 @@ header{
     margin-left: 120px;
 }
 
+
+.speaker{
+    padding: 100px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.speaker h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: bold;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card{
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.card h3{
+    margin: 5px 0;
+}
+
+.card span{
+    font-size: 14px;
+    color: gray;
+}
+
+.container-1{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    padding: 50px;
+
+
+}
+
+.pricing h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: bold;
+}
+
+.pricing.letter{
+    text-align: center;
+}
+
+.card-1{
+    padding: 25px 50px;
+    background-color: rgb(244, 240, 236);
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+.card-pro{
+    padding: 25px 50px;
+    background-color: #0D1B2A;
+    border-radius: 10px;
+    color: #f8f8f8;
+    height: 400px;
+    width: 300px;
+}
+
+
+.btn-primary{
+    background-color: #f8f8f8;
+    color: black;
+    width: 150px;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+
+.card-pro ol{
+    margin-top: 70px;
+    display: grid;
+    gap: 10px;
+}
+
+
+.btn-outline{
+    width: 150px;
+    padding: 10px;
+    margin-top: 60px;
+    background-color: white;
+    color: black;
+}
+
+
+
+.conference-img{
+
+    max-width: 100%;
+    border-radius: 10px;
+    width: 1000px;
+    height: 500px;
+    border: 2px solid #0D1B2A;
+}
+
+
+.conference-img{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
